@@ -1,0 +1,190 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    overflow-x: hidden; }
+  
+  a {
+    outline: medium none !important;
+    color: #ff8a00;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none; }
+    a:focus {
+      color: #ff8a00;
+      text-decoration: none !important; }
+    a:hover {
+      color: #ff8a00;
+      text-decoration: none !important; }
+  
+  input {
+    outline: medium none !important;
+    color: #ff8a00; }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #001935;
+    margin-top: 0px;
+    font-weight: 600; }
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+      color: inherit; }
+  
+  label {
+    font-weight: normal; }
+  
+  h1 {
+    font-size: 42px;
+    font-style: normal; 
+  }
+  
+  h2 {
+    font-size: 28px;
+    line-height: 38px; }
+  
+  h3 {
+    font-size: 26px; }
+  
+  h4 {
+    font-size: 22px; }
+  
+  h5 {
+    font-size: 18px; }
+  
+  h6 {
+    font-size: 16px; }
+  
+  p {
+    font-weight: normal;
+    line-height: 1.7; }
+  
+  small {
+    font-size: 80%; }
+  
+  *::-moz-selection {
+    background: #ff8a00;
+    color: #ffffff;
+    text-shadow: none; }
+  
+  ::-moz-selection {
+    background: #ff8a00;
+    color: #ffffff;
+    text-shadow: none; }
+  
+  ::selection {
+    background: #ff8a00;
+    color: #ffffff;
+    text-shadow: none; }
+  
+  .container-fluid {
+    padding: 0 100px; }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
+          margin  auto 
+    .feature-info {
+      padding: 25px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      border-radius: 3px; }
+      .feature-info a {
+        text-decoration: underline;
+        font-weight: 600; }
+        .feature-info a i {
+          padding-left: 10px; }
+      .feature-info:hover {
+        background: #ff8a00; }
+    
+    .feature-info .feature-info-icon {
+      font-size: 56px;
+      line-height: 56px;
+      display: inline-block;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      color: #ff8a00; }
+    
+    .feature-info:hover .feature-info-icon {
+      color: #ffffff; }
+    
+    .feature-info .feature-info-content h5 {
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    
+    .feature-info .feature-info-content p {
+      margin-bottom: 5px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    
+    /*****
+      Banner
+  *****/
+  .header.header-transparent + .banner {
+    padding: 340px 0 255px 0; }
+  
+  .banner {
+    padding: 255px 0 255px 0;
+    position: relative; }
+    .banner .job-search-item span {
+      font-size: 11px; }
+  
+      /* popup-icon */
+   .popup-icon {
+    position: relative;
+    display: block; }
+    .popup-icon i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      font-size: 50px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      padding-left: 1px; }
+      .popup-icon i:hover {
+        color: #ffffff; }
+  
+  .forgot-pass p {
+    margin-top: 7px;
+    margin-bottom: 5px; }
+  
+  /* index slider */
+  .video-img .popup-icon {
+    position: initial; }
+  
+  /* iframe */
+  iframe 
+  {
+    align-self: center;
+    width: 100%;
+    border: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+   }
+  
+  /* newsletter */
+  .newsletter {
+    position: relative; }
+  
+  /* job-grid-map */
+  .si-content-wrapper {
+    padding: 0; }
+  
+  .custom-window.open .si-frame {
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow: visible; }
